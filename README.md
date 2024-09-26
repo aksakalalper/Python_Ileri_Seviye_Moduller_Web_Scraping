@@ -1,0 +1,2 @@
+# Python_Ileri_Seviye_Moduller_Web_Scraping
+Turkce Dilde Python Uygulamalari ve Dersleri
