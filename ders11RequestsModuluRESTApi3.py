@@ -3,10 +3,8 @@ import json
 import os
 from PIL import Image
 
-'''
 apiUrl="https://xkcd.com/368/"
 response=requests.get(apiUrl)
-
 
 if (response.status_code==200):
     print('Connection establieshed.')
@@ -22,9 +20,7 @@ if (response.status_code==200):
     print(response.headers)
 
 elif(response.status_code==404):
-        print('Not found.')
-
-        '''
+    print('Not found.')
 
 requestUrl="https://httpbin.org/post"
 payLoad={'username':'alptekin','password':'evka-5'}
@@ -38,3 +34,5 @@ payLoad2={'page':2,'count':2}
 response2=requests.post(requestUrl,params=payLoad)
 print(response2.text)
 print('********************')
+
+
