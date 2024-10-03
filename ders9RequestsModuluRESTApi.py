@@ -9,7 +9,7 @@ class TheMovideDb:
     def __init__(self):
         self.headers = {
                         "accept": "application/json",
-                        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyOTExZDljMjY4YWVkNWNiNTQyZjVlZDEzMWZiZGE5NiIsIm5iZiI6MTcyNzUzMjg2Ni4zMzYzNjgsInN1YiI6IjY2ZjgwOTQ4N2YxM2I3YjEyYWEyMTAzNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.KyI0ZRhlvj0LpDSsgwNTo5ycAWZNT-mjmgmg0bYeBQ8"
+                        "Authorization": " LCJ2ZXJzaW9uIjoxfQ.KyI0ZRhlvj0LpDSsgwNTo5ycAWZNT-mjmgmg0bYeBQ8"
                         }
 
     def getPopular(self):
